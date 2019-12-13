@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases>
+	<testcase>
+		<fact name="平台">x86</fact>
+		<fact name="CPU">单核</fact>
+		<fact name="内存">128MB</fact>
+		<fact name="硬盘类型">SCSI</fact>
+		<fact name="操作系统">mac</fact>
+		<fact name="浏览器">Firefox</fact>
+		<fact name="APP">SQLServer</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">x86</fact>
+		<fact name="CPU">单核</fact>
+		<fact name="内存">1GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Win7</fact>
+		<fact name="浏览器">Google</fact>
+		<fact name="APP">SQLServer</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">x86</fact>
+		<fact name="CPU">单核</fact>
+		<fact name="内存">4GB</fact>
+		<fact name="硬盘类型">SCSI</fact>
+		<fact name="操作系统">Win10</fact>
+		<fact name="浏览器">IE8</fact>
+		<fact name="APP">SQLServer</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">x86</fact>
+		<fact name="CPU">单核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">SCSI</fact>
+		<fact name="操作系统">Linux</fact>
+		<fact name="浏览器">IE10</fact>
+		<fact name="APP">SQLServer</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">x86</fact>
+		<fact name="CPU">双路</fact>
+		<fact name="内存">128MB</fact>
+		<fact name="硬盘类型">SCSI</fact>
+		<fact name="操作系统">mac</fact>
+		<fact name="浏览器">Firefox</fact>
+		<fact name="APP">Exchange</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">x86</fact>
+		<fact name="CPU">双路</fact>
+		<fact name="内存">1GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Win7</fact>
+		<fact name="浏览器">Google</fact>
+		<fact name="APP">Exchange</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">x86</fact>
+		<fact name="CPU">双路</fact>
+		<fact name="内存">4GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Win10</fact>
+		<fact name="浏览器">IE8</fact>
+		<fact name="APP">Exchange</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">x86</fact>
+		<fact name="CPU">双路</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Linux</fact>
+		<fact name="浏览器">IE10</fact>
+		<fact name="APP">Exchange</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">x86</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">128MB</fact>
+		<fact name="硬盘类型">SCSI</fact>
+		<fact name="操作系统">mac</fact>
+		<fact name="浏览器">Firefox</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">x86</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">1GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Win7</fact>
+		<fact name="浏览器">Google</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">x86</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">4GB</fact>
+		<fact name="硬盘类型">SCSI</fact>
+		<fact name="操作系统">Win10</fact>
+		<fact name="浏览器">IE8</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">x86</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">SCSI</fact>
+		<fact name="操作系统">Linux</fact>
+		<fact name="浏览器">IE10</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">ia64</fact>
+		<fact name="CPU">单核</fact>
+		<fact name="内存">128MB</fact>
+		<fact name="硬盘类型">SCSI</fact>
+		<fact name="操作系统">mac</fact>
+		<fact name="浏览器">Firefox</fact>
+		<fact name="APP">SQLServer</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">ia64</fact>
+		<fact name="CPU">单核</fact>
+		<fact name="内存">1GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Win7</fact>
+		<fact name="浏览器">Google</fact>
+		<fact name="APP">Exchange</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">ia64</fact>
+		<fact name="CPU">单核</fact>
+		<fact name="内存">4GB</fact>
+		<fact name="硬盘类型">SCSI</fact>
+		<fact name="操作系统">Win10</fact>
+		<fact name="浏览器">IE8</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">ia64</fact>
+		<fact name="CPU">单核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">SCSI</fact>
+		<fact name="操作系统">Linux</fact>
+		<fact name="浏览器">IE10</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">ia64</fact>
+		<fact name="CPU">双路</fact>
+		<fact name="内存">128MB</fact>
+		<fact name="硬盘类型">SCSI</fact>
+		<fact name="操作系统">Win7</fact>
+		<fact name="浏览器">Google</fact>
+		<fact name="APP">SQLServer</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">ia64</fact>
+		<fact name="CPU">双路</fact>
+		<fact name="内存">1GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">mac</fact>
+		<fact name="浏览器">Firefox</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">ia64</fact>
+		<fact name="CPU">双路</fact>
+		<fact name="内存">4GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">mac</fact>
+		<fact name="浏览器">Firefox</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">ia64</fact>
+		<fact name="CPU">双路</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">mac</fact>
+		<fact name="浏览器">Firefox</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">ia64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">128MB</fact>
+		<fact name="硬盘类型">SCSI</fact>
+		<fact name="操作系统">Win10</fact>
+		<fact name="浏览器">IE8</fact>
+		<fact name="APP">SQLServer</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">ia64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">1GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Win10</fact>
+		<fact name="浏览器">IE8</fact>
+		<fact name="APP">Exchange</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">ia64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">4GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Win7</fact>
+		<fact name="浏览器">Google</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">ia64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Win7</fact>
+		<fact name="浏览器">Google</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">单核</fact>
+		<fact name="内存">128MB</fact>
+		<fact name="硬盘类型">SCSI</fact>
+		<fact name="操作系统">mac</fact>
+		<fact name="浏览器">Firefox</fact>
+		<fact name="APP">SQLServer</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">单核</fact>
+		<fact name="内存">1GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Win7</fact>
+		<fact name="浏览器">Google</fact>
+		<fact name="APP">Exchange</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">单核</fact>
+		<fact name="内存">4GB</fact>
+		<fact name="硬盘类型">SCSI</fact>
+		<fact name="操作系统">Win10</fact>
+		<fact name="浏览器">IE8</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">单核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">SCSI</fact>
+		<fact name="操作系统">Linux</fact>
+		<fact name="浏览器">IE10</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">双路</fact>
+		<fact name="内存">128MB</fact>
+		<fact name="硬盘类型">SCSI</fact>
+		<fact name="操作系统">Linux</fact>
+		<fact name="浏览器">IE10</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">双路</fact>
+		<fact name="内存">1GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Linux</fact>
+		<fact name="浏览器">IE10</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">双路</fact>
+		<fact name="内存">4GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Linux</fact>
+		<fact name="浏览器">IE10</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">双路</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Win10</fact>
+		<fact name="浏览器">IE8</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">128MB</fact>
+		<fact name="硬盘类型">SCSI</fact>
+		<fact name="操作系统">mac</fact>
+		<fact name="浏览器">Google</fact>
+		<fact name="APP">SQLServer</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">1GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">mac</fact>
+		<fact name="浏览器">Google</fact>
+		<fact name="APP">Exchange</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">4GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">mac</fact>
+		<fact name="浏览器">Google</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">mac</fact>
+		<fact name="浏览器">IE8</fact>
+		<fact name="APP">SQLServer</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">x86</fact>
+		<fact name="CPU">单核</fact>
+		<fact name="内存">128MB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">mac</fact>
+		<fact name="浏览器">IE8</fact>
+		<fact name="APP">Exchange</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">x86</fact>
+		<fact name="CPU">单核</fact>
+		<fact name="内存">1GB</fact>
+		<fact name="硬盘类型">SCSI</fact>
+		<fact name="操作系统">mac</fact>
+		<fact name="浏览器">IE8</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">ia64</fact>
+		<fact name="CPU">双路</fact>
+		<fact name="内存">128MB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">mac</fact>
+		<fact name="浏览器">IE10</fact>
+		<fact name="APP">SQLServer</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">ia64</fact>
+		<fact name="CPU">双路</fact>
+		<fact name="内存">1GB</fact>
+		<fact name="硬盘类型">SCSI</fact>
+		<fact name="操作系统">mac</fact>
+		<fact name="浏览器">IE10</fact>
+		<fact name="APP">Exchange</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">128MB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">mac</fact>
+		<fact name="浏览器">IE10</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">1GB</fact>
+		<fact name="硬盘类型">SCSI</fact>
+		<fact name="操作系统">Win7</fact>
+		<fact name="浏览器">Firefox</fact>
+		<fact name="APP">SQLServer</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">单核</fact>
+		<fact name="内存">4GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Win7</fact>
+		<fact name="浏览器">Firefox</fact>
+		<fact name="APP">Exchange</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">单核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Win7</fact>
+		<fact name="浏览器">Firefox</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">双路</fact>
+		<fact name="内存">4GB</fact>
+		<fact name="硬盘类型">SCSI</fact>
+		<fact name="操作系统">Win7</fact>
+		<fact name="浏览器">IE8</fact>
+		<fact name="APP">SQLServer</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">双路</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">SCSI</fact>
+		<fact name="操作系统">Win7</fact>
+		<fact name="浏览器">IE8</fact>
+		<fact name="APP">Exchange</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Win7</fact>
+		<fact name="浏览器">IE8</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Win7</fact>
+		<fact name="浏览器">IE10</fact>
+		<fact name="APP">SQLServer</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Win7</fact>
+		<fact name="浏览器">IE10</fact>
+		<fact name="APP">Exchange</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Win7</fact>
+		<fact name="浏览器">IE10</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Win10</fact>
+		<fact name="浏览器">Firefox</fact>
+		<fact name="APP">SQLServer</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Win10</fact>
+		<fact name="浏览器">Firefox</fact>
+		<fact name="APP">Exchange</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Win10</fact>
+		<fact name="浏览器">Firefox</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Win10</fact>
+		<fact name="浏览器">Google</fact>
+		<fact name="APP">SQLServer</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Win10</fact>
+		<fact name="浏览器">Google</fact>
+		<fact name="APP">Exchange</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Win10</fact>
+		<fact name="浏览器">Google</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Win10</fact>
+		<fact name="浏览器">IE10</fact>
+		<fact name="APP">SQLServer</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Win10</fact>
+		<fact name="浏览器">IE10</fact>
+		<fact name="APP">Exchange</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Win10</fact>
+		<fact name="浏览器">IE10</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Linux</fact>
+		<fact name="浏览器">Firefox</fact>
+		<fact name="APP">SQLServer</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Linux</fact>
+		<fact name="浏览器">Firefox</fact>
+		<fact name="APP">Exchange</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Linux</fact>
+		<fact name="浏览器">Firefox</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Linux</fact>
+		<fact name="浏览器">Google</fact>
+		<fact name="APP">SQLServer</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Linux</fact>
+		<fact name="浏览器">Google</fact>
+		<fact name="APP">Exchange</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Linux</fact>
+		<fact name="浏览器">Google</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Linux</fact>
+		<fact name="浏览器">IE8</fact>
+		<fact name="APP">SQLServer</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Linux</fact>
+		<fact name="浏览器">IE8</fact>
+		<fact name="APP">Exchange</fact>
+	</testcase>
+	<testcase>
+		<fact name="平台">amd64</fact>
+		<fact name="CPU">四核</fact>
+		<fact name="内存">64GB</fact>
+		<fact name="硬盘类型">IDE</fact>
+		<fact name="操作系统">Linux</fact>
+		<fact name="浏览器">IE8</fact>
+		<fact name="APP">Office</fact>
+	</testcase>
+</testcases>

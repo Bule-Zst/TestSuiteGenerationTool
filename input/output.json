@@ -1,0 +1,508 @@
+{
+  "testcases": [
+    {
+      "testcase": [
+        {
+          "name": "PLATFORM",
+          "value": "AMD64"
+        },
+        {
+          "name": "CPU",
+          "value": "Single"
+        },
+        {
+          "name": "RAM",
+          "value": "64GB"
+        },
+        {
+          "name": "HDD",
+          "value": "SCSI"
+        },
+        {
+          "name": "OS",
+          "value": "OS4"
+        }
+      ]
+    },
+    {
+      "testcase": [
+        {
+          "name": "PLATFORM",
+          "value": "X86"
+        },
+        {
+          "name": "CPU",
+          "value": "Single"
+        },
+        {
+          "name": "RAM",
+          "value": "128MB"
+        },
+        {
+          "name": "HDD",
+          "value": "SCSI"
+        },
+        {
+          "name": "OS",
+          "value": "OS1"
+        }
+      ]
+    },
+    {
+      "testcase": [
+        {
+          "name": "PLATFORM",
+          "value": "X86"
+        },
+        {
+          "name": "CPU",
+          "value": "Dual"
+        },
+        {
+          "name": "RAM",
+          "value": "4GB"
+        },
+        {
+          "name": "HDD",
+          "value": "SCSI"
+        },
+        {
+          "name": "OS",
+          "value": "OS2"
+        }
+      ]
+    },
+    {
+      "testcase": [
+        {
+          "name": "PLATFORM",
+          "value": "X86"
+        },
+        {
+          "name": "CPU",
+          "value": "Quad"
+        },
+        {
+          "name": "RAM",
+          "value": "64GB"
+        },
+        {
+          "name": "HDD",
+          "value": "SCSI"
+        },
+        {
+          "name": "OS",
+          "value": "OS3"
+        }
+      ]
+    },
+    {
+      "testcase": [
+        {
+          "name": "PLATFORM",
+          "value": "IA64"
+        },
+        {
+          "name": "CPU",
+          "value": "Single"
+        },
+        {
+          "name": "RAM",
+          "value": "128MB"
+        },
+        {
+          "name": "HDD",
+          "value": "IDE"
+        },
+        {
+          "name": "OS",
+          "value": "OS1"
+        }
+      ]
+    },
+    {
+      "testcase": [
+        {
+          "name": "PLATFORM",
+          "value": "IA64"
+        },
+        {
+          "name": "CPU",
+          "value": "Dual"
+        },
+        {
+          "name": "RAM",
+          "value": "4GB"
+        },
+        {
+          "name": "HDD",
+          "value": "IDE"
+        },
+        {
+          "name": "OS",
+          "value": "OS2"
+        }
+      ]
+    },
+    {
+      "testcase": [
+        {
+          "name": "PLATFORM",
+          "value": "IA64"
+        },
+        {
+          "name": "CPU",
+          "value": "Quad"
+        },
+        {
+          "name": "RAM",
+          "value": "64GB"
+        },
+        {
+          "name": "HDD",
+          "value": "IDE"
+        },
+        {
+          "name": "OS",
+          "value": "OS3"
+        }
+      ]
+    },
+    {
+      "testcase": [
+        {
+          "name": "PLATFORM",
+          "value": "AMD64"
+        },
+        {
+          "name": "CPU",
+          "value": "Dual"
+        },
+        {
+          "name": "RAM",
+          "value": "128MB"
+        },
+        {
+          "name": "HDD",
+          "value": "SCSI"
+        },
+        {
+          "name": "OS",
+          "value": "OS1"
+        }
+      ]
+    },
+    {
+      "testcase": [
+        {
+          "name": "PLATFORM",
+          "value": "AMD64"
+        },
+        {
+          "name": "CPU",
+          "value": "Quad"
+        },
+        {
+          "name": "RAM",
+          "value": "4GB"
+        },
+        {
+          "name": "HDD",
+          "value": "SCSI"
+        },
+        {
+          "name": "OS",
+          "value": "OS2"
+        }
+      ]
+    },
+    {
+      "testcase": [
+        {
+          "name": "PLATFORM",
+          "value": "IA64"
+        },
+        {
+          "name": "CPU",
+          "value": "Single"
+        },
+        {
+          "name": "RAM",
+          "value": "4GB"
+        },
+        {
+          "name": "HDD",
+          "value": "SCSI"
+        },
+        {
+          "name": "OS",
+          "value": "OS4"
+        }
+      ]
+    },
+    {
+      "testcase": [
+        {
+          "name": "PLATFORM",
+          "value": "X86"
+        },
+        {
+          "name": "CPU",
+          "value": "Single"
+        },
+        {
+          "name": "RAM",
+          "value": "4GB"
+        },
+        {
+          "name": "HDD",
+          "value": "IDE"
+        },
+        {
+          "name": "OS",
+          "value": "OS4"
+        }
+      ]
+    },
+    {
+      "testcase": [
+        {
+          "name": "PLATFORM",
+          "value": "AMD64"
+        },
+        {
+          "name": "CPU",
+          "value": "Single"
+        },
+        {
+          "name": "RAM",
+          "value": "64GB"
+        },
+        {
+          "name": "HDD",
+          "value": "IDE"
+        },
+        {
+          "name": "OS",
+          "value": "OS3"
+        }
+      ]
+    },
+    {
+      "testcase": [
+        {
+          "name": "PLATFORM",
+          "value": "AMD64"
+        },
+        {
+          "name": "CPU",
+          "value": "Dual"
+        },
+        {
+          "name": "RAM",
+          "value": "128MB"
+        },
+        {
+          "name": "HDD",
+          "value": "IDE"
+        },
+        {
+          "name": "OS",
+          "value": "OS3"
+        }
+      ]
+    },
+    {
+      "testcase": [
+        {
+          "name": "PLATFORM",
+          "value": "AMD64"
+        },
+        {
+          "name": "CPU",
+          "value": "Dual"
+        },
+        {
+          "name": "RAM",
+          "value": "64GB"
+        },
+        {
+          "name": "HDD",
+          "value": "SCSI"
+        },
+        {
+          "name": "OS",
+          "value": "OS4"
+        }
+      ]
+    },
+    {
+      "testcase": [
+        {
+          "name": "PLATFORM",
+          "value": "AMD64"
+        },
+        {
+          "name": "CPU",
+          "value": "Dual"
+        },
+        {
+          "name": "RAM",
+          "value": "64GB"
+        },
+        {
+          "name": "HDD",
+          "value": "IDE"
+        },
+        {
+          "name": "OS",
+          "value": "OS1"
+        }
+      ]
+    },
+    {
+      "testcase": [
+        {
+          "name": "PLATFORM",
+          "value": "AMD64"
+        },
+        {
+          "name": "CPU",
+          "value": "Quad"
+        },
+        {
+          "name": "RAM",
+          "value": "128MB"
+        },
+        {
+          "name": "HDD",
+          "value": "SCSI"
+        },
+        {
+          "name": "OS",
+          "value": "OS1"
+        }
+      ]
+    },
+    {
+      "testcase": [
+        {
+          "name": "PLATFORM",
+          "value": "AMD64"
+        },
+        {
+          "name": "CPU",
+          "value": "Quad"
+        },
+        {
+          "name": "RAM",
+          "value": "128MB"
+        },
+        {
+          "name": "HDD",
+          "value": "IDE"
+        },
+        {
+          "name": "OS",
+          "value": "OS4"
+        }
+      ]
+    },
+    {
+      "testcase": [
+        {
+          "name": "PLATFORM",
+          "value": "AMD64"
+        },
+        {
+          "name": "CPU",
+          "value": "Quad"
+        },
+        {
+          "name": "RAM",
+          "value": "4GB"
+        },
+        {
+          "name": "HDD",
+          "value": "IDE"
+        },
+        {
+          "name": "OS",
+          "value": "OS1"
+        }
+      ]
+    },
+    {
+      "testcase": [
+        {
+          "name": "PLATFORM",
+          "value": "AMD64"
+        },
+        {
+          "name": "CPU",
+          "value": "Single"
+        },
+        {
+          "name": "RAM",
+          "value": "128MB"
+        },
+        {
+          "name": "HDD",
+          "value": "IDE"
+        },
+        {
+          "name": "OS",
+          "value": "OS2"
+        }
+      ]
+    },
+    {
+      "testcase": [
+        {
+          "name": "PLATFORM",
+          "value": "AMD64"
+        },
+        {
+          "name": "CPU",
+          "value": "Quad"
+        },
+        {
+          "name": "RAM",
+          "value": "4GB"
+        },
+        {
+          "name": "HDD",
+          "value": "IDE"
+        },
+        {
+          "name": "OS",
+          "value": "OS3"
+        }
+      ]
+    },
+    {
+      "testcase": [
+        {
+          "name": "PLATFORM",
+          "value": "AMD64"
+        },
+        {
+          "name": "CPU",
+          "value": "Quad"
+        },
+        {
+          "name": "RAM",
+          "value": "64GB"
+        },
+        {
+          "name": "HDD",
+          "value": "IDE"
+        },
+        {
+          "name": "OS",
+          "value": "OS2"
+        }
+      ]
+    }
+  ]
+}

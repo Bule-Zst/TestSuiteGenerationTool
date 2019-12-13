@@ -1,0 +1,102 @@
+{
+  "factors": [
+    {
+      "name": "PLATFORM",
+      "level": [
+        "X86",
+        "IA64",
+        "AMD64"
+      ],
+      "type": "string"
+    },
+    {
+      "name": "CPU",
+      "level": [
+        "Single",
+        "Dual",
+        "Quad"
+      ],
+      "type": "string"
+    },
+    {
+      "name": "RAM",
+      "level": [
+        "128MB",
+        "4GB",
+        "64GB"
+      ],
+      "type": "string"
+    },
+    {
+      "name": "HDD",
+      "level": [
+        "SCSI",
+        "IDE"
+      ],
+      "type": "string"
+    },
+    {
+      "name": "OS",
+      "level": [
+        "OS1",
+        "OS2",
+        "OS3",
+        "OS4"
+      ],
+      "type": "string"
+    }
+  ],
+  "strength": {
+    "default": 2,
+    "var_strengh": [
+      {
+        "factor": [
+          "CPU",
+          "RAM",
+          "HDD"
+        ],
+        "strength": 3
+      }
+    ]
+  },
+  "seeds": [
+    [
+      {
+        "name": "PLATFORM",
+        "value": "AMD64"
+      },
+      {
+        "name": "RAM",
+        "value": "64GB"
+      },
+      {
+        "name": "OS",
+        "value": "OS4"
+      }
+    ],
+    [
+      {
+        "name": "PLATFORM",
+        "value": "X86"
+      },
+      {
+        "name": "RAM",
+        "value": "128MB"
+      },
+      {
+        "name": "OS",
+        "value": "OS1"
+      }
+    ]
+  ],
+  "constraints": [
+    {
+      "condition": "'PLATFORM'=='ia64'||'PLATFORM'=='amd64'",
+      "expression": "('OS'=='OS3'||'OS'=='OS4')"
+    },
+    {
+      "condition": "'PLATFORM'=='x86'",
+      "expression": "'RAM'!='64GB'"
+    }
+  ]
+}

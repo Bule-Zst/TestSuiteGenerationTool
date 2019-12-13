@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases>
+	<testcase>
+		<fact name="PLATFORM">AMD64</fact>
+		<fact name="CPU">Single</fact>
+		<fact name="RAM">64GB</fact>
+		<fact name="HDD">SCSI</fact>
+		<fact name="OS">OS4</fact>
+	</testcase>
+	<testcase>
+		<fact name="PLATFORM">X86</fact>
+		<fact name="CPU">Single</fact>
+		<fact name="RAM">128MB</fact>
+		<fact name="HDD">SCSI</fact>
+		<fact name="OS">OS1</fact>
+	</testcase>
+	<testcase>
+		<fact name="PLATFORM">X86</fact>
+		<fact name="CPU">Dual</fact>
+		<fact name="RAM">4GB</fact>
+		<fact name="HDD">SCSI</fact>
+		<fact name="OS">OS2</fact>
+	</testcase>
+	<testcase>
+		<fact name="PLATFORM">X86</fact>
+		<fact name="CPU">Quad</fact>
+		<fact name="RAM">64GB</fact>
+		<fact name="HDD">SCSI</fact>
+		<fact name="OS">OS3</fact>
+	</testcase>
+	<testcase>
+		<fact name="PLATFORM">IA64</fact>
+		<fact name="CPU">Single</fact>
+		<fact name="RAM">128MB</fact>
+		<fact name="HDD">IDE</fact>
+		<fact name="OS">OS1</fact>
+	</testcase>
+	<testcase>
+		<fact name="PLATFORM">IA64</fact>
+		<fact name="CPU">Dual</fact>
+		<fact name="RAM">4GB</fact>
+		<fact name="HDD">IDE</fact>
+		<fact name="OS">OS2</fact>
+	</testcase>
+	<testcase>
+		<fact name="PLATFORM">IA64</fact>
+		<fact name="CPU">Quad</fact>
+		<fact name="RAM">64GB</fact>
+		<fact name="HDD">IDE</fact>
+		<fact name="OS">OS3</fact>
+	</testcase>
+	<testcase>
+		<fact name="PLATFORM">AMD64</fact>
+		<fact name="CPU">Dual</fact>
+		<fact name="RAM">128MB</fact>
+		<fact name="HDD">SCSI</fact>
+		<fact name="OS">OS1</fact>
+	</testcase>
+	<testcase>
+		<fact name="PLATFORM">AMD64</fact>
+		<fact name="CPU">Quad</fact>
+		<fact name="RAM">4GB</fact>
+		<fact name="HDD">SCSI</fact>
+		<fact name="OS">OS2</fact>
+	</testcase>
+	<testcase>
+		<fact name="PLATFORM">IA64</fact>
+		<fact name="CPU">Single</fact>
+		<fact name="RAM">4GB</fact>
+		<fact name="HDD">SCSI</fact>
+		<fact name="OS">OS4</fact>
+	</testcase>
+	<testcase>
+		<fact name="PLATFORM">X86</fact>
+		<fact name="CPU">Single</fact>
+		<fact name="RAM">4GB</fact>
+		<fact name="HDD">IDE</fact>
+		<fact name="OS">OS4</fact>
+	</testcase>
+	<testcase>
+		<fact name="PLATFORM">AMD64</fact>
+		<fact name="CPU">Single</fact>
+		<fact name="RAM">64GB</fact>
+		<fact name="HDD">IDE</fact>
+		<fact name="OS">OS3</fact>
+	</testcase>
+	<testcase>
+		<fact name="PLATFORM">AMD64</fact>
+		<fact name="CPU">Dual</fact>
+		<fact name="RAM">128MB</fact>
+		<fact name="HDD">IDE</fact>
+		<fact name="OS">OS3</fact>
+	</testcase>
+	<testcase>
+		<fact name="PLATFORM">AMD64</fact>
+		<fact name="CPU">Dual</fact>
+		<fact name="RAM">64GB</fact>
+		<fact name="HDD">SCSI</fact>
+		<fact name="OS">OS4</fact>
+	</testcase>
+	<testcase>
+		<fact name="PLATFORM">AMD64</fact>
+		<fact name="CPU">Dual</fact>
+		<fact name="RAM">64GB</fact>
+		<fact name="HDD">IDE</fact>
+		<fact name="OS">OS1</fact>
+	</testcase>
+	<testcase>
+		<fact name="PLATFORM">AMD64</fact>
+		<fact name="CPU">Quad</fact>
+		<fact name="RAM">128MB</fact>
+		<fact name="HDD">SCSI</fact>
+		<fact name="OS">OS1</fact>
+	</testcase>
+	<testcase>
+		<fact name="PLATFORM">AMD64</fact>
+		<fact name="CPU">Quad</fact>
+		<fact name="RAM">128MB</fact>
+		<fact name="HDD">IDE</fact>
+		<fact name="OS">OS4</fact>
+	</testcase>
+	<testcase>
+		<fact name="PLATFORM">AMD64</fact>
+		<fact name="CPU">Quad</fact>
+		<fact name="RAM">4GB</fact>
+		<fact name="HDD">IDE</fact>
+		<fact name="OS">OS1</fact>
+	</testcase>
+	<testcase>
+		<fact name="PLATFORM">AMD64</fact>
+		<fact name="CPU">Single</fact>
+		<fact name="RAM">128MB</fact>
+		<fact name="HDD">IDE</fact>
+		<fact name="OS">OS2</fact>
+	</testcase>
+	<testcase>
+		<fact name="PLATFORM">AMD64</fact>
+		<fact name="CPU">Quad</fact>
+		<fact name="RAM">4GB</fact>
+		<fact name="HDD">IDE</fact>
+		<fact name="OS">OS3</fact>
+	</testcase>
+	<testcase>
+		<fact name="PLATFORM">AMD64</fact>
+		<fact name="CPU">Quad</fact>
+		<fact name="RAM">64GB</fact>
+		<fact name="HDD">IDE</fact>
+		<fact name="OS">OS2</fact>
+	</testcase>
+</testcases>

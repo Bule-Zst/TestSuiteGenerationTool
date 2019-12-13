@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<combination xmlns="http://www.example.org/combination"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.example.org/combination
+   http://www.example.org/combination.xsd">
+   <factors> <!-- 因素定义-->
+    <factor name="PLATFORM" type="string">
+        <level>
+            <value>x86</value>
+            <value>ia64</value>
+            <value>amd64</value>
+        </level>
+    </factor>
+    <factor name="CPUS" type="string">
+        <level>
+            <value>Single</value>
+            <value>Dual</value>
+            <value>Quad</value>
+        </level>
+    </factor>
+    <factor name="RAM" type="string">
+        <level>
+            <value>128MB</value>
+            <value>4GB</value>
+            <value>64GB</value>
+        </level>
+    </factor>
+    <factor name="HDD" type="string">
+        <level>
+            <value>SCSI</value>
+            <value>IDE</value>
+        </level>
+    </factor>
+    <factor name="OS" type="string">
+        <level>
+            <value>OS1</value>
+            <value>OS2</value>
+            <value>OS3</value>
+            <value>OS4</value>
+        </level>
+    </factor>
+</factors>
+<strength default="2"> <!--默认2强度组合-->
+    <var_strengh strength="3"><!-- CPU核数、主存容量和外存接口三个因素3强度组合-->
+        <p name="CPUS"/>
+        <p name="RAM"/>
+        <p name="HDD"/>
+    </var_strengh>
+</strength>
+<seeds> <!-- 种子组合-->
+    <seed>
+        <fact name="PLATFORM" value="amd64"/>
+        <fact name="RAM" value="64GB"/>
+        <fact name="OS" value="OS4"/>
+    </seed>
+    <seed>
+        <fact name="PLATFORM" value="x86"/>
+        <fact name="RAM" value="128MB"/>
+        <fact name="OS" value="OS1"/>
+    </seed>
+</seeds>
+<constraints> <!-- 约束条件-->
+    <constraint condition="'PLATFORM' == 'ia64'||'PLATFORM' == 'amd64'"
+        expression="('OS'=='OS3' || 'OS'=='OS4')"/>
+        <constraint condition="'PLATFORM' == 'x86'" expression="'RAM'!='64GB'"/>
+    </constraints>
+</combination>
